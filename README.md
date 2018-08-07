@@ -1,9 +1,9 @@
-like web3 but for minimalists
+like webu but for minimalists
 
 
 ```js
 var provider = { sendAsync: function(params, cb){/* ... */} }
-var query = new EthQuery(provider)
+var query = new IrcQuery(provider)
 
 query.getBalance(address, cb)
 ```

@@ -1,12 +1,12 @@
 {
-  "name": "eth-query",
-  "version": "2.1.2",
-  "description": "like web3 but for minimalists",
+  "name": "irc-query",
+  "version": "0.0.1",
+  "description": "like webu but for minimalists",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "IrChain Team <contact@irchain.io>",
   "license": "ISC",
   "dependencies": {
     "json-rpc-random-id": "^1.0.0",
@@ -15,10 +15,13 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereumjs/eth-query.git"
+    "url": "git+https://github.com/AuraMask/irc-query.git"
   },
   "bugs": {
-    "url": "https://github.com/ethereumjs/eth-query/issues"
+    "url": "https://github.com/AuraMask/irc-query/issues"
   },
-  "homepage": "https://github.com/ethereumjs/eth-query#readme"
+  "homepage": "https://github.com/AuraMask/irc-query#readme",
+  "keywords": [
+    "irchain"
+  ]
 }
