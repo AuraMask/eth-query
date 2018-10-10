@@ -74,9 +74,9 @@ IrcQuery.prototype.sendAsync = function(opts, cb) {
 function generateFnFor(methodName) {
   return function() {
     const self = this;
-    var args   = [].slice.call(arguments);
-    var cb     = args.pop();
-    self.sendAsync({
+	  const args = [].slice.call(arguments);
+	  const cb = args.pop();
+	  self.sendAsync({
       method: methodName,
       params: args,
     }, cb);
@@ -86,9 +86,9 @@ function generateFnFor(methodName) {
 function generateFnWithDefaultBlockFor(argCount, methodName) {
   return function() {
     const self = this;
-    var args   = [].slice.call(arguments);
-    var cb     = args.pop();
-    // set optional default block param
+	  const args = [].slice.call(arguments);
+	  const cb = args.pop();
+	  // set optional default block param
     if (args.length < argCount) args.push('latest');
     self.sendAsync({
       method: methodName,
